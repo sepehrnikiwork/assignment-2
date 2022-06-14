@@ -1,0 +1,89 @@
+*, :after, :before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "arial";
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.hero-section {
+    background-image: url('../images/hero-section-background.jpg');
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.hero-content {
+    width: 100%;
+    text-align: center;
+    color: #9a5b36;
+}
+
+.hero-caption h1 {
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    font-size: 36px;
+}
+
+.hero-caption p {
+    margin-bottom: 15px;
+}
+
+.hero-form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #9a5b36;
+    margin: 0 10px;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #9a5b36;
+    border-radius: 5px;
+    border: 0;
+}
+
+.btn-outline {
+    border: 1px solid #9a5b36;
+    color: #9a5b36;
+    background-color: transparent;
+}
