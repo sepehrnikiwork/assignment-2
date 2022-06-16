@@ -9,7 +9,7 @@ submitButton.addEventListener('click', changeLocation);
 function changeLocation() {
     const location = sentence.querySelector("span");
     if (inputElement.value.length === 0) {
-        return location.innerText = " Beach";
+        return location.innerText = "Beach";
     }
     return location.innerText = inputElement.value;
 }
