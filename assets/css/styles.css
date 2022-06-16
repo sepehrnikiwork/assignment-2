@@ -87,6 +87,7 @@ input:focus-visible {
     border-radius: 5px;
     border: 0;
     color: #9a5b36;
+    cursor: pointer;
 }
 
 .btn-outline {
